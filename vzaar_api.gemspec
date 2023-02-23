@@ -23,7 +23,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'httpclient', '~> 2.8'
   s.add_dependency 'request_store', '~> 1.3'
 
-  s.add_development_dependency 'bundler', '~> 1.3'
   s.add_development_dependency 'fuubar', '~> 2.2'
   s.add_development_dependency 'rake', '~> 10.5'
   s.add_development_dependency 'growl', '~> 1.0'
