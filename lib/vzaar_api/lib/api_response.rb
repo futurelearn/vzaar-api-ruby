@@ -53,7 +53,7 @@ module VzaarApi
       def json
         @json ||= JSON.parse(response.body, symbolize_names: true)
       rescue JSON::ParserError
-        raise Error.new('Invalid JSON response from API')
+        raise Error.new("Invalid JSON response from API: #{response.body}")
       end
 
     end
