@@ -25,15 +25,15 @@ module VzaarApi
       end
 
       def rate_limit
-        rate_limit_value 'X-RateLimit-Limit'
+        rate_limit_value 'X-Ratelimit-Limit'
       end
 
       def rate_limit_remaining
-        rate_limit_value 'X-RateLimit-Remaining'
+        rate_limit_value 'X-Ratelimit-Remaining'
       end
 
       def rate_limit_reset
-        rate_limit_value 'X-RateLimit-Reset'
+        rate_limit_value 'X-Ratelimit-Reset'
       end
 
       private
